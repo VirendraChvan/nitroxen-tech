@@ -1006,6 +1006,11 @@ section,
   margin-bottom: 30px;
 }
 
+.about-btn
+{
+  margin-bottom: 5px;
+}
+
 .about .content .about-btn {
   padding: 8px 30px 9px 30px;
   color: var(--default-color);

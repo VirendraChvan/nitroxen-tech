@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Arial", sans-serif;
+      background: #f8f9fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      color: #333;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    .error-code {
+      font-size: 6rem;
+      font-weight: bold;
+      color: #007BFF;
+      margin: 0;
+    }
+
+    .error-message {
+      font-size: 1.5rem;
+      margin: 10px 0 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 25px;
+    }
+
+    .brand img {
+      width: 60px;
+      height: 60px;
+    }
+
+    .brand h1 {
+      font-size: 2rem;
+      margin: 0;
+      font-weight: bold;
+      color: #4889ca;
+    }
+
+    .brand span {
+      display: block;
+      font-size: 1rem;
+      letter-spacing: 5px;
+      font-weight: lighter;
+      font-family: "Lato", sans-serif ;
+      color: rgb(192, 192, 192);
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #007BFF;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .back-btn:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Brand -->
+    <div class="brand">
+      <img src="../assets/img/logo-2.png" alt="Nitroxen Logo">
+      <div>
+        <h1>NITROXEN</h1>
+        <span>T E C H</span>
+      </div>
+    </div>
+
+    <!-- Error message -->
+    <h1 class="error-code">404</h1>
+    <p class="error-message">Oops! The page you are looking for doesn’t exist.</p>
+
+    <!-- Back to home -->
+    <a href="../index.html" class="back-btn">Go Back Home</a>
+  </div>
+</body>
+</html>
