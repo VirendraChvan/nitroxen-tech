@@ -6,18 +6,18 @@
 * License: https://bootstrapmade.com/license/
 */
 
-    // Simulate loading progress
-    let progress = 0;
-    let interval = setInterval(() => {
-      if (progress < 100) {
-        progress += 5;
-        document.getElementById("progress-fill").style.width = progress + "%";
-      } else {
-        clearInterval(interval);
-        document.querySelector(".loader").style.display = "none";
-        document.getElementById("main-content").style.display = "block";
-      }
-    }, 200);
+    // // Simulate loading progress
+    // let progress = 0;
+    // let interval = setInterval(() => {
+    //   if (progress < 100) {
+    //     progress += 5;
+    //     document.getElementById("progress-fill").style.width = progress + "%";
+    //   } else {
+    //     clearInterval(interval);
+    //     document.querySelector(".loader").style.display = "none";
+    //     document.getElementById("main-content").style.display = "block";
+    //   }
+    // }, 100);
 
     
 (function() {
